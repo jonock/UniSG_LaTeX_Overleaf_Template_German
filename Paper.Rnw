@@ -1,5 +1,6 @@
 \documentclass[a4paper,11pt,bibliography=totoc,numbers=noenddot]{scrartcl}
-\usepackage[english]{babel}
+\usepackage{alltt}
+\usepackage[ngerman]{babel}
 \usepackage{amsmath,amssymb}
 \usepackage{enumerate}
 \usepackage{blindtext}
@@ -17,8 +18,16 @@
 \usepackage{varioref} % use \vref{} instead of \ref
 \usepackage{pgf,tikz}
 \usepackage[pdfborder={0 0 0}]{hyperref}
-\usepackage{apacite}
+%\usepackage{apacite}
 \usepackage{appendix}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[hybrid]{markdown}
+\usepackage{url}
+\usepackage[backend=biber,style=apa]{biblatex}
+\DeclareLanguageMapping{german}{german-apa}
+\usepackage[autostyle]{csquotes}
 
 %%%%%%%%%%%%%%% Define some commands: %%%%%%%%%%%%%%%%
 \newcommand{\R}{\textrm{R}} % for correct writing of R, write \R
