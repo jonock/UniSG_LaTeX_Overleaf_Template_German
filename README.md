@@ -1,4 +1,5 @@
 This is the german version of the great LaTeX template of tinino. It is enhanced with german specific attributes (Language, umlaute).
+It works really well with Overleaf.
 
 Original text:
 This is my initial template for my master's thesis. I made it easily customisable (at least for students at University of St.Gallen, others have to adjust the front page as well as  the academic honesty)
